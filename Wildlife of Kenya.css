@@ -1,0 +1,121 @@
+@charset "utf-8";
+body {
+	background-color: #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-right: 100px;
+	margin-left: 100px;
+	color: #FFFFFF;
+	max-width: 1080px;
+	margin: 0 auto;
+	margin-top: 20px
+}
+header {
+	background-image: url("Africa Banner.png");
+	border: ridge 10px #FF5700;
+	height: 212px;
+	margin-bottom: 30px;
+}
+h1 {
+	font-size: 120px;
+	margin:auto;
+	text-align: center;
+	padding-top: 35px;
+}
+section {
+	background-color: #2B2B2B;
+	border: #FF5700 hidden 5px;
+	border-left-style: solid;
+	padding: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 30px
+}
+.nav {
+	background-color: #2B2B2B;
+	border: #FF5700 hidden 5px;
+	border-left-style: solid;
+	color: #FFFFFF;
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+
+}
+.nav > li {
+	display: inline-block;
+	padding-right: 120px;
+}
+.nav > li > a {
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: all 0.3s;
+}
+.main {
+	text-decoration: underline;
+}
+.nav > li > a:hover {
+	color: #FF5700;
+	text-decoration: underline;
+}
+.cute {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	
+}
+.hippo {
+	height: 150px;
+	width: 20%;
+	float: right;
+}
+.lion {
+	max-height: 200px;
+	padding-right: 20px
+}
+figure {
+	float:left;
+}
+.giraffe {
+	float: left;
+	padding-right: 20px;
+}
+.species3 {
+	padding-bottom: 70px
+}
+.elephant {
+	max-width: 300px;
+	float: right;
+	padding-left: 20px;
+}
+.wildebeest {
+	float:right;
+}
+.nav > a {
+	color: #FFFFFF;
+}
+.link {
+	color: #FF5700;
+}
+.icon {
+	background-color: white;
+	padding: 2px 3px 3px 3px;
+	transition: all 0.3s;
+	margin-bottom: -7px
+}
+.icon:hover {
+	background-color: #FF5700;
+}
+.person {
+	margin-right: -150px
+}
+.icons {
+padding-right: 20px;
+}
+.linkpage {
+	list-style: none;
+}
+.linkpage > li {
+margin-top: 30px	
+}
